@@ -1,4 +1,4 @@
-const store = {
+export default {
     lists: [
       {
         id: '1',
@@ -20,6 +20,11 @@ const store = {
         header: 'Fourth list',
         cardIds: [ 'l', 'm' ],
       },
+      {
+        id: '5',
+        header: 'fifth list',
+        cardIds: [ 'l', 'm', 'h', 'a' ],
+      },
     ],
     allCards: {
       'a': { id: 'a', title: 'First card', content: 'lorem ipsum' },
@@ -35,7 +40,6 @@ const store = {
       'k': { id: 'k', title: 'Eleventh card', content: 'lorem ipsum' },
       'l': { id: 'l', title: 'Twelfth card', content: 'lorem ipsum' },
       'm': { id: 'm', title: 'Thirteenth card', content: 'lorem ipsum' },
+      'n': { id: 'n', title: 'Fourteenth card', content: 'lorem ipsum' },
     },
   }
-
-  export default store;
